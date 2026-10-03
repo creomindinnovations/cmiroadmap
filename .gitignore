@@ -1,0 +1,22 @@
+# Vercel / build system
+.vercel
+
+# Dependencies
+node_modules/
+
+# Build output
+/dist/
+
+dist/
+
+# Logs
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db

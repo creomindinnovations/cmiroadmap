@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glow-hover {
+    transition: all 0.3s ease-in-out;
+  }
+  .glow-hover:hover {
+    box-shadow: 0 0 15px rgba(2, 132, 199, 0.25);
+    border-color: rgba(2, 132, 199, 0.5);
+    transform: translateY(-2px);
+  }
+}
